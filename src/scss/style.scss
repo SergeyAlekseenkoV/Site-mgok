@@ -520,6 +520,19 @@ section.menu-sm.shown {
 
 .banner-shape {
     clip-path: polygon(100% 0, 100% calc(100% - 15px), 52% 100%, 0 calc(100% - 15px), 0 0);
+    position: relative;
+    z-index: 2;
+    /* fade from color effect */
+    &::before {
+        width: 100%;
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        background: $primary-common-light-through;
+        clip-path: polygon(100% 0, 100% calc(100% - 15px), 52% 100%, 0 calc(100% - 15px), 0 0);
+        z-index: 1;
+    }
 }
 
 #carouselIndicators {
