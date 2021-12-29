@@ -1,5 +1,5 @@
 <!--footer-->
-<footer id="footer" class="border-top border-white mb-0 bg_dark_through px-3 px-sm-0">
+<footer id="footer" class="mb-0 bg_dark_through px-3 px-sm-0">
     <div class="footer container pt-3 px-0 d-flex flex-row justify-content-between align-items-center">
         <!-- footer-nav -->
         <nav class="w-100">

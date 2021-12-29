@@ -1,5 +1,5 @@
     <header class="main-header p-0">
-        <div class="social-top px-3 px-xl-0 bg-light">
+        <div class="social-top px-3 px-xl-0 bg-light pb-1">
             <div class="container px-0 d-flex flex-row flex-wrap py-1 justify-content-end align-items-center">
                 <div class="m-0 position-absolute search_bar_wrapper">
                     <form class="search_bar position-relative">

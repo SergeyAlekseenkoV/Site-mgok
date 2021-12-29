@@ -195,22 +195,24 @@ body {
     }
 }
 
-.navbar .container.menu-container {
-    &::before {
-        content: "";
-        position: absolute;
-        background-color: $white-color;
-        border-bottom: 2px solid $primary-color;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        width: 20%;
-        min-height: 100%;
-        z-index: 1;
+.navbar {
+    margin-top: -4px;
+    .container.menu-container {
+        &::before {
+            content: "";
+            position: absolute;
+            background-color: $white-color;
+            border-bottom: 2px solid $primary-color;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 20%;
+            min-height: 100%;
+            z-index: 1;
+        }
     }
 }
-
 /* navigation */
 
 .right-shaped {
@@ -1201,6 +1203,16 @@ a.text-info:focus{
     object-position: center;
 }
 
+.obj-fit-top {
+    object-fit: cover;
+    object-position: top;
+}
+
+.obj-fit-bottom {
+    object-fit: cover;
+    object-position: bottom;
+}
+
 .obj-fit-right {
     object-fit: cover;
     object-position: right;
@@ -1293,16 +1305,32 @@ footer {
     clip-path: polygon(50% 0%, 100% 15px, 100% 100%, 0 100%, 0 15px);
 }
 /* scroll -to- top button */
-.scrollup {
+.btn.scrollup {
     display: none;
     position: fixed;
-    bottom: 30px;
-    right: 20px;
+    bottom: 135px;
+    right: 5px;
     background-color: $primary-common-light-through;
     color: $primary-color;
     transform: rotateZ(-90deg);
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
     z-index: 10000;
+}
+
+
+@media (min-width: 992px) {
+    .btn.scrollup {
+        display: none;
+        position: fixed;
+        bottom: 100px;
+        right: 5px;
+
+        &:hover {
+           
+            color: $white-color;
+            background-color: $primary-common-through;
+        }
+    }
 }
 
 /* ===========================================
@@ -1374,20 +1402,6 @@ media queries for different screen resolutions
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-}
-
-@media (min-width: 992px) {
-    .scrollup {
-        display: none;
-        position: fixed;
-        bottom: 100px;
-        right: 20px;
-
-        &:hover {
-           background-color: $primary-common-through;
-           color: $white-color;
-        }
-    }
 }
 
 @media screen and (max-width: 767px) {
