@@ -1,0 +1,51 @@
+{
+  "name": "registration",
+  "version": "1.0.0",
+  "description": "Portal users",
+  "main": "index.js",
+  "scripts": {
+    "html": "gulp",
+    "php": "gulp dev_php",
+    "build": "gulp libs_style && gulp svg_css && gulp ttf && gulp fonts && gulp style && gulp libs_js && gulp build_js && gulp rastr && gulp webp && gulp svg_sprite && gulp html && gulp php",
+    "ftp": "gulp deploy",
+    "build-ftp": "npm run build && npm run ftp"
+  },
+  "author": "Serhii Alieksieienko",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-changed": "^4.0.3",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-multi-dest": "^1.3.7",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-sass-bulk-importer": "^3.0.2",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "gulp-webp": "^4.0.1",
+    "imagemin-jpeg-recompress": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "node-sass": "^6.0.1",
+    "sass": "^1.39.0"
+  },
+  "dependencies": {
+    "gulp-shorthand": "^1.1.0",
+    "require-dir": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyAlekseenkoV/Test-Assignment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SergeyAlekseenkoV/Test-Assignment/issues"
+  },
+  "homepage": "https://github.com/SergeyAlekseenkoV/Test-Assignment#readme"
+}
