@@ -10,7 +10,7 @@
                         <li class="pl-0 py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Історія</a></li>
                         <li class="pl-0 py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Портал</a></li>
                         <li class="pl-0 py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Продукція</a></li>
-                        <li class="pl-0 py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Вакансії</a></li>
+                        <li class="pl-0 py-2 py-lg-1 small"><a class="text-info bg-transparent" href="vacancy.php">Вакансії</a></li>
                         <li class="pl-0 py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Контакти</a></li>
                     </ul>
                 </li>
@@ -21,7 +21,7 @@
                         <li class="py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Охорона праці</a></li>
                         <li class="py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Профспілка</a></li>
                         <li class="py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Комбінат-місту</a></li>
-                        <li class="py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Соціальна сфера</a></li>
+                        <li class="py-2 py-lg-1 small"><a class="text-info bg-transparent" href="socialsphere.php">Соціальна сфера</a></li>
                     </ul>
                 </li>
                 <li class="pl-0 py-2 pr-2 pr-lg-5">

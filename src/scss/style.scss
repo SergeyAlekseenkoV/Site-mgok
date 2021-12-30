@@ -451,7 +451,7 @@ body {
 /* small menu */
 
 section.menu-sm {
-    top: 110px;
+    top: 112px;
     right: 0;
     bottom: 0;
     overflow-y: auto !important;
@@ -698,6 +698,9 @@ section.menu-sm.shown {
 
             > h2 {
                 line-height: 1.2;
+                a {
+                    letter-spacing: -1px;
+                }
             }
         }
     }
@@ -706,9 +709,12 @@ section.menu-sm.shown {
 .content__h:not(span.content__h) {
     line-height: 1;
     letter-spacing: 0.5px;
-    background: $bg-navbar;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+}
+
+@media screen and(max-width: 568px) {
+    h1.content__h {
+        font-size: 2em !important;
+    }
 }
 
 .content__text {
@@ -788,6 +794,40 @@ section.menu-sm.shown {
 
     .img-figure {
         width: 100%;
+    }
+}
+
+/* open positions */
+.open-positions {
+    p {
+        text-indent: 1em;
+    }
+
+    > :nth-of-type(2) > .row > ul > li {
+        padding: 0.5em 1em;
+        border: transparent 1px solid;
+        transition: all 500ms ease;
+
+        > a {
+            margin-left: 2em;
+            text-decoration: none !important;
+            transition: all 500ms ease;
+        }
+
+        &:hover {
+            margin-left: 1.8em;
+            background-color: $white-color;
+            border: $primary-common-light 1px solid;
+            box-shadow: 0 1px 2px 2px $primary-common-light-through;
+        }
+
+        &:hover a {
+            margin-left: 0.2em;
+        }
+    }
+
+    > :nth-of-type(2) > :first-child > img {
+        opacity: 0.5;
     }
 }
 
@@ -1037,6 +1077,17 @@ input[type="file"].form-control {
     }
 }
 
+.btn-shaped {
+    clip-path: polygon(15px 0%, 100% 0%, calc(100% - 15px) 100%, 0% 100%);
+    border-radius: 0;
+    text-shadow: $shadow-dark;
+
+    &:hover,
+    &:focus {
+        box-shadow: 0 0 2px 4px $primary-color;
+    }
+}
+
 .banner-container {
     z-index: 2;
     backface-visibility: visible;
@@ -1093,7 +1144,10 @@ a.text-info:focus{
 .breadcrumb-item.active {
     color: $white-color !important;
 }
-
+/* botstrap shadow restyling */
+.shadow {
+    box-shadow: 0px 3px 6px 0px $primary-color-through !important;
+}
 
 /* =========== backgrounds ============ */
 .bg_warning {
@@ -1260,10 +1314,35 @@ a.text-info:focus{
 
 /* ========= restyling fancybox buttons(for galleries) ========= */
 
+.fancybox-bg {
+    background: $primary-color-through !important;
+    opacity: .98!important;
+}
+
+.fancybox-button {
+    background: $primary-common-light-through !important;
+    color: $primary-color !important;
+    &:hover,
+    &:focus {
+        opacity: .9;
+    }
+}
+
+.fancybox-infobar {
+    color: $white-color !important;
+}
+
 .fancybox-progress {
     background: $primary-dark !important;
 }
 
+.fancybox-thumbs {
+    background: $primary-color-through;
+}
+.fancybox-navigation .fancybox-button--arrow_left,
+.fancybox-navigation .fancybox-button--arrow_right {
+    background: transparent !important;
+}
 button.fancybox-button[title="Previous"],
 button.fancybox-button[title="Next"] {
     background-color: transparent;
@@ -1310,6 +1389,67 @@ button.fancybox-button[title="Next"] {
 }
 
 /* end GLOBALS */
+
+/* mgok-news */
+.mgok-news {
+    a.d-block.text_color {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .card {
+        cursor: pointer;
+        z-index: 1;
+        opacity: 0.8;
+        border: $primary-dark 1px solid;
+
+        &:hover {
+            opacity: 1;
+            box-shadow: none!important;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 3px;
+            bottom: 3px;
+            left: 3px;
+            right: 3px;
+            z-index: 0;
+        }
+
+        &::after {
+            border: 2px solid $white-color;
+            transform: scale(0, 0);
+        }
+
+        &:hover::after {
+            transform: scale(1, 1);
+        }
+
+        .card-img-top {
+            max-height: 70%;
+        }
+    }
+
+    .card-body {
+        box-shadow: inset 0 -14px 20px -12px $primary-common-light-through;
+    }
+    /* label for the img card */
+    .span_accent {
+        right: 0.5em;
+        top: 0.5em;
+    }
+
+    .card-title,
+    .card-text {
+        line-height: 1.2 !important;
+    }
+
+    .card-footer > a {
+        z-index: 5;
+    }
+}
 
 /* footer style */
 footer {

@@ -129,12 +129,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         prevScrollpos = currentScrollPos;
         /* add position for the mobile menu dynamically */
-        menuMobile.style.top = `${currentScrollPos + 110}px`;
+        menuMobile.style.top = `${currentScrollPos + 112}px`;
         if (currentScrollPos === 0) {
             document.querySelector('.main-header').classList.remove('fixed-top');
         } else {
             document.querySelector('.main-header').classList.add('fixed-top');
-            menuMobile.style.top = `${currentScrollPos + 110}px`;
+            menuMobile.style.top = `${currentScrollPos + 112}px`;
         }
     });
 
@@ -160,31 +160,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     /* scroll-to-top end */
-
-    let $animation_elements = $('.animation-element');
-    let $window = $(window);
-
-    function check_if_in_view() {
-        var window_height = $window.height();
-        var window_top_position = $window.scrollTop();
-        var window_bottom_position = (window_top_position + window_height);
-
-        $.each($animation_elements, function () {
-            var $element = $(this);
-            var element_height = $element.outerHeight();
-            var element_top_position = $element.offset().top;
-            var element_bottom_position = (element_top_position + element_height);
-
-            //check to see if this current container is within viewport
-            if ((element_bottom_position >= window_top_position) &&
-                (element_top_position <= window_bottom_position)) {
-                $element.addClass('in-view');
-            } else {
-                $element.removeClass('in-view');
-            }
-        });
-    }
-
-    $window.on('scroll resize', check_if_in_view);
-    $window.trigger('scroll');
+    
 });

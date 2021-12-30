@@ -19,7 +19,7 @@
         </section>
         <!-- content -->
         <section class="content bg-transparent d-flex flex-column fustify-content-between align-items-center mx-3 mx-sm-0 mt-3 mt-lg-4">
-            <article class="container mx-0 border px-0 mb-3">
+            <article class="container mx-0 border px-0 mb-3 shadow">
                 <div class="row mx-0 p-3">
                     <div class="col-12 col-md-4 p-3">
                         <h2 class="content__h mb-3 d-md-none">Головний офіс</h2>
@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </article>
-            <article class="container mx-0 border px-0 mb-3">
+            <article class="container mx-0 border px-0 mb-3 shadow">
                 <p class="p-3 mb-0">
                     р/рахунок <strong>26005000000677</strong> АТ "БАНК КРЕДИТ ДНІПРО" в м.Київ <strong>МФО 305749 SWIFT: CRDEUA2N</strong>
                 </p>
@@ -66,7 +66,7 @@
                     Код ЄДРПОУ <strong>00190911</strong> ІПН <strong>001909104062</strong> № свідоцтва <strong>100335270</strong>
                 </p>
             </article>
-            <div class="mails container px-0 d-flex flex-wrap justify-content-between border mb-3">
+            <div class="mails container px-0 d-flex flex-wrap justify-content-between border mb-3 shadow">
                 <article class="flex-fill mx-0 mb-3 px-0">
                     <p class="px-3 pt-3 pb-1 mb-0">
                         <strong>Офіційна адреса електронної пошти:</strong>

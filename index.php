@@ -64,40 +64,120 @@
             </div>
         </section>
         <!-- end slider -->
+        <!-- news section -->
+        <section class="content bg-transparent d-flex flex-column fustify-content-between align-items-center mx-3 mx-sm-0 mt-3 mt-lg-4">
+            <article class="container mx-0 bg-light shadow border px-0">
+                <div class="mgok-news row content__wrapper p-3 w-100 mx-0">
+                    <div class="col-12 px-0 d-flex justify-content-between align-items-center">
+                        <h1 class="content__h font-weight-bold w-100 d-xl-none text-center mx-auto pb-3 border-bottom mb-3 d-flex justify-content-between align-items-center">Новини<a href="allnews.php" class="btn btn-shaped btn-link bg_linear_dark text-white px-3">Усі Новини</a></h1>
+                        <h1 class="content__h font-weight-bold w-100 d-none d-xl-flex text-left mx-auto pb-4 border-bottom mb-4 justify-content-between align-items-center">Новини<a href="allnews.php" class="btn btn-shaped btn-link bg_linear_dark text-white px-3">Усі Новини</a></h2>
+                    </div>
+                    <!-- news item -->
+                    <div class="col-12 col-md-6 col-lg-3 p-1 mb-3 mb-md-0">
+                        <a href="#" class="d-block text_color">
+                            <div class="card position-relative shadow card_link">
+                                <img src="../build/img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top height-210 obj-fit position-relative" alt="equipment">
+                                <div class="card-body border-bottom bg-light pb-3 pt-2 px-2 overflow-hidden height-150">
+                                    <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h5>
+                                    <p class="card-text text_color">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between flex-wrap bg-light text-left text_color">
+                                    <span class="my-2 date_out">26 травня 2021</span>
+                                    <a href="news-description.php" class="btn border-info text-primary read_more">Читати <span>&raquo;</span></a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- news item -->
+                    <div class="col-12 col-md-6 col-lg-3 p-1 mb-3 mb-md-0">
+                        <a href="#" class="d-block text_color">
+                            <div class="card position-relative shadow card_link">
+                                <img src="../build/img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top height-210 obj-fit position-relative" alt="equipment">
+                                <div class="card-body border-bottom bg-light pb-3 pt-2 px-2 overflow-hidden height-150">
+                                    <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h5>
+                                    <p class="card-text text_color">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between flex-wrap bg-light text-left text_color">
+                                    <span class="my-2 date_out">26 травня 2021</span>
+                                    <a href="news-description.php" class="btn border-info text-primary read_more">Читати <span>&raquo;</span></a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- news item -->
+                    <div class="col-12 col-md-6 col-lg-3 p-1 mb-3 mb-md-0">
+                        <a href="#" class="d-block text_color">
+                            <div class="card position-relative shadow card_link">
+                                <img src="../build/img/pexels-08.png" class="card-img-top height-210 obj-fit position-relative" alt="equipment">
+                                <div class="card-body border-bottom bg-light pb-3 pt-2 px-2 overflow-hidden height-150">
+                                    <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h5>
+                                    <p class="card-text text_color">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between flex-wrap bg-light text-left text_color">
+                                    <span class="my-2 date_out">26 травня 2021</span>
+                                    <a href="news-description.php" class="btn border-info text-primary read_more">Читати <span>&raquo;</span></a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- news item -->
+                    <div class="col-12 col-md-6 col-lg-3 p-1 mb-3 mb-md-0">
+                        <a href="#" class="d-block text_color">
+                            <div class="card position-relative shadow card_link">
+                                <img src="../build/img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top height-210 obj-fit position-relative" alt="equipment">
+                                <div class="card-body border-bottom bg-light pb-3 pt-2 px-2 overflow-hidden height-150">
+                                    <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h5>
+                                    <p class="card-text text_color">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between flex-wrap bg-light text-left text_color">
+                                    <span class="my-2 date_out">26 травня 2021</span>
+                                    <a href="news-description.php" class="btn border-info text-primary read_more">Читати <span>&raquo;</span></a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- end news section -->
         <!-- addressing section -->
         <section class="content bg-transparent d-flex flex-column fustify-content-between align-items-center mx-3 mx-sm-0 mt-3 mt-lg-4">
             <article class="container mx-0 bg-light shadow border px-0">
-                <div class="content__wrapper p-3 w-100"> 
+                <div class="content__wrapper p-3 w-100">
                     <h1 class="content__h font-weight-bold w-100 d-xl-none text-center mx-auto pb-3 border-bottom mb-3">Звернення голови правління</h1>
                     <h1 class="content__h font-weight-bold w-100 d-none d-xl-block text-left mx-auto pb-4 border-bottom mb-4">Звернення голови правління</h2>
-                    <div class="content__img float-md-left mr-md-3 mb-2 mb-xl-0">
-                        <img src="build/img/head-leader.jpeg" alt="Голова правління" class="img-fluid w-100 min-height obj-fit border border-info">
-                    </div>
-                    <p class="addressing__text lead mb-0 text-justify">
-                        <span class="addressing-main__text">
-                            Природа подарувала марганецькій землі надра, багаті на марганцеву руду. Вона використовується в металургії для підвищення властивостей сталі,
-                            таких як зносостійкість, твердість, опір розриву, антикорозійність. Завдяки цьому подарунку існує місто Марганець та «Марганецький гірничо-збагачувальний комбінат» –
-                            підприємство з видобутку та переробки марганцевої руди.
-                            Комбінат розробляє східну частину Нікопольського родовища марганцевих руд – Грушівсько-Басанську ділянку. І наша історія триває вже понад століття –
-                            у 2020 році виповнюється 135 років з моменту відкриття і початку розробки Нікопольського родовища марганцевих руд. Як «Марганецький гірничо-збагачувальний комбінат»
-                            підприємство утворене в 1970 році на базі рудників «Нікополь-Марганець», і ось вже 50 років підтримуються ті славні традиції, які біля витоків заклали наші діди і прадіди.
-                            Наше підприємство унікальне, адже видобуток марганцевої руди ведеться і підземним, і відкритим способом, з подальшим збагаченням сирої руди на збагачувальній фабриці.
-                            Для цього в структурі комбінату функціонує три шахти, Грушівський кар'єр і Грушівська збагачувальна фабрика,
-                            а також автомобільний, залізничні та і інші допоміжні цехи, що забезпечують працездатність основних виробничих підрозділів.
-                            Продукція, яку виробляє Марганецький гірничо-збагачувальний комбінат – марганцевий концентрат зі зниженим вмістом фосфору, і в залежності від вмісту марганцю він
-                            ділиться за сортам на: 1б, 2-й і карбонат. Основні споживачі нашої продукції – це вітчизняні феросплавні заводи.
-                            Щорічно підприємство досягає високих виробничих показників, і все це завдяки колективу «Марганецького гірничо-збагачувального комбінату» – команді професіоналів,
-                            здатних вирішувати складні виробничі, технічні та соціальні завдання.
-                            «Марганецький гірничо-збагачувальний комбінат» завжди відкритий для взаємовигідної співпраці і надійних довгострокових відносин, тим більше що багаторічний досвід
-                            виробництва дає на це обґрунтовану перспективу.
-                        </span>
-                        <br>
-                        <br>
-                        <span class="d-block mt-5 pt-3 text-right border-top">
-                            <strong class="font-weight-bold">Голова правління</strong><br class="d-lg-none"> АТ «Марганецький ГЗК» <br class="d-md-none"><strong class="font-weight-bold">Олексій Миколайович Алєксєєнко</strong>
-                        </span>
-                    </p>
-                    <div class="clearfix invisible"></div>
+                        <div class="content__img float-md-left mr-md-3 mb-2 mb-xl-0">
+                            <img src="build/img/head-leader.jpeg" alt="Голова правління" class="img-fluid w-100 min-height obj-fit border border-info">
+                        </div>
+                        <p class="addressing__text lead mb-0 text-justify">
+                            <span class="addressing-main__text">
+                                Природа подарувала марганецькій землі надра, багаті на марганцеву руду. Вона використовується в металургії для підвищення властивостей сталі,
+                                таких як зносостійкість, твердість, опір розриву, антикорозійність. Завдяки цьому подарунку існує місто Марганець та «Марганецький гірничо-збагачувальний комбінат» –
+                                підприємство з видобутку та переробки марганцевої руди.
+                                Комбінат розробляє східну частину Нікопольського родовища марганцевих руд – Грушівсько-Басанську ділянку. І наша історія триває вже понад століття –
+                                у 2020 році виповнюється 135 років з моменту відкриття і початку розробки Нікопольського родовища марганцевих руд. Як «Марганецький гірничо-збагачувальний комбінат»
+                                підприємство утворене в 1970 році на базі рудників «Нікополь-Марганець», і ось вже 50 років підтримуються ті славні традиції, які біля витоків заклали наші діди і прадіди.
+                                Наше підприємство унікальне, адже видобуток марганцевої руди ведеться і підземним, і відкритим способом, з подальшим збагаченням сирої руди на збагачувальній фабриці.
+                                Для цього в структурі комбінату функціонує три шахти, Грушівський кар'єр і Грушівська збагачувальна фабрика,
+                                а також автомобільний, залізничні та і інші допоміжні цехи, що забезпечують працездатність основних виробничих підрозділів.
+                                Продукція, яку виробляє Марганецький гірничо-збагачувальний комбінат – марганцевий концентрат зі зниженим вмістом фосфору, і в залежності від вмісту марганцю він
+                                ділиться за сортам на: 1б, 2-й і карбонат. Основні споживачі нашої продукції – це вітчизняні феросплавні заводи.
+                                Щорічно підприємство досягає високих виробничих показників, і все це завдяки колективу «Марганецького гірничо-збагачувального комбінату» – команді професіоналів,
+                                здатних вирішувати складні виробничі, технічні та соціальні завдання.
+                                «Марганецький гірничо-збагачувальний комбінат» завжди відкритий для взаємовигідної співпраці і надійних довгострокових відносин, тим більше що багаторічний досвід
+                                виробництва дає на це обґрунтовану перспективу.
+                            </span>
+                            <br>
+                            <br>
+                            <span class="d-block mt-5 pt-3 text-right border-top">
+                                <strong class="font-weight-bold">Голова правління</strong><br class="d-lg-none"> АТ «Марганецький ГЗК» <br class="d-md-none"><strong class="font-weight-bold">Олексій Миколайович Алєксєєнко</strong>
+                            </span>
+                        </p>
+                        <div class="clearfix invisible"></div>
                 </div>
             </article>
         </section>
@@ -105,8 +185,8 @@
         <!-- directors section -->
         <section class="content bg-transparent d-flex flex-column fustify-content-between align-items-center mx-3 mx-sm-0 mt-3 mt-lg-4">
             <article class="container mx-0 bg-light shadow border px-0 row">
-            <h1 class="content__h font-weight-bold w-100 d-xl-none text-center mx-3 pt-4 mb-0 border-bottom pt-3 pb-4">Наші керівники</h1>
-            <h1 class="content__h font-weight-bold w-100 d-none d-xl-block text-left mx-3 mb-3 border-bottom pl-0 pr-3 pb-4 pt-3">Наші керівники</h1>
+                <h1 class="content__h font-weight-bold w-100 d-xl-none text-center mx-3 pt-4 mb-0 border-bottom pt-3 pb-4">Наші керівники</h1>
+                <h1 class="content__h font-weight-bold w-100 d-none d-xl-block text-left mx-3 mb-3 border-bottom pl-0 pr-3 pb-4 pt-3">Наші керівники</h1>
                 <div class="col-12 col-md-6 col-xl-4 p-3 director-img__block">
                     <div class="overflow-hidden w-100 position-relative">
                         <img src="build/img/Valeriygrigor.jpg" alt="керівник" class="img-fluid obj-fit w-100 p-0 border border-info">
@@ -194,4 +274,3 @@
     </main>
     <!--footer-->
     <?php include_once "footer.php"; ?>
-    

@@ -1,5 +1,5 @@
     <header class="main-header p-0">
-        <div class="social-top px-3 px-xl-0 bg-light pb-1">
+        <div class="social-top px-3 px-xl-0 bg-light pb-1 mx-auto">
             <div class="container px-0 d-flex flex-row flex-wrap py-1 justify-content-end align-items-center">
                 <div class="m-0 position-absolute search_bar_wrapper">
                     <form class="search_bar position-relative">
@@ -13,7 +13,7 @@
                         <a href="https://www.facebook.com/infoMGOK/?modal=admin_todo_tour" target="_blank" rel="nofollow noopener" class="lead py-2 pt-0 text-primary"><i class="fab fa-facebook-square"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.youtube.com/channel/UClwIjrpbN7aFZZVFoY3Bi-Q" target="_blank" rel="nofollow noopener" class="lead pl-2 pt-0 pr-0 text-primary"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.youtube.com/channel/UClwIjrpbN7aFZZVFoY3Bi-Q" target="_blank" rel="nofollow noopener" class="lead py-2 pt-0 ml-2 text-primary"><i class="fab fa-youtube"></i></a>
                     </li>
                 </ul>
             </div>
@@ -78,10 +78,10 @@
                         <a href="#" class="px-5 py-2 py-xl-3" tabindex="6">Комбінат-місту</a>
                     </li>
                     <li>
-                        <a href="#" class="px-5 py-2 py-xl-3" tabindex="7">Соціальна сфера</a>
+                        <a href="socialsphere.php" class="px-5 py-2 py-xl-3" tabindex="7">Соціальна сфера</a>
                     </li>
                     <li>
-                        <a href="#" class="px-5 py-2 py-xl-3" tabindex="8">Вакансії</a>
+                        <a href="vacancy.php" class="px-5 py-2 py-xl-3" tabindex="8">Вакансії</a>
                     </li>
                     <li>
                         <a href="contacts.php" class="px-5 py-2 py-xl-3" tabindex="9">Контакти</a>
@@ -153,10 +153,10 @@
                             <a href="#" class="p-3 btn btn-block my-1">Комбінат-місту</a>
                         </li>
                         <li>
-                            <a href="#" class="p-3 btn btn-block my-1">Соціальна сфера</a>
+                            <a href="socialsphere.php" class="p-3 btn btn-block my-1">Соціальна сфера</a>
                         </li>
                         <li>
-                            <a href="#" class="p-3 btn btn-block my-1">Вакансії</a>
+                            <a href="vacancy.php" class="p-3 btn btn-block my-1">Вакансії</a>
                         </li>
                     </ul>
                 </div>
@@ -232,7 +232,7 @@
             <li class="card">
                 <div class="card-header">
                     <h2 class="mb-0">
-                        <a href="#" class="btn btn-link btn-block text-left text-uppercase" role="button">
+                        <a href="vacancy.php" class="btn btn-link btn-block text-left text-uppercase" role="button">
                             Вакансії
                         </a>
                     </h2>
