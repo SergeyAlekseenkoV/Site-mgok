@@ -69,12 +69,13 @@
             <article class="container mx-0 bg-light shadow border px-0">
                 <div class="mgok-news row content__wrapper p-3 w-100 mx-0">
                     <div class="col-12 px-0 d-flex justify-content-between align-items-center">
-                        <h1 class="content__h font-weight-bold w-100 d-xl-none text-center mx-auto pb-3 border-bottom mb-3 d-flex justify-content-between align-items-center">Новини<a href="allnews.php" class="btn btn-shaped btn-link bg_linear_dark text-white px-3">Усі Новини</a></h1>
-                        <h1 class="content__h font-weight-bold w-100 d-none d-xl-flex text-left mx-auto pb-4 border-bottom mb-4 justify-content-between align-items-center">Новини<a href="allnews.php" class="btn btn-shaped btn-link bg_linear_dark text-white px-3">Усі Новини</a></h2>
+                        <h1 class="content__h font-weight-bold w-100 d-xl-none text-center mx-auto pb-0 d-flex justify-content-between align-items-center">Новини<a href="allnews.php" class="btn btn-shaped btn-link bg_linear_dark text-white px-3">Усі Новини</a></h1>
+                        <h1 class="content__h font-weight-bold w-100 d-none d-xl-flex text-left mx-auto pb-0 justify-content-between align-items-center">Новини<a href="allnews.php" class="btn btn-shaped btn-link bg_linear_dark text-white px-3">Усі Новини</a></h1>
                     </div>
+                    <hr class="col-12 px-0 bg-primary mb-3">
                     <!-- news item -->
                     <div class="col-12 col-md-6 col-lg-3 p-1 mb-3 mb-md-0">
-                        <a href="#" class="d-block text_color">
+                        <a href="news-description.php" class="d-block text_color">
                             <div class="card position-relative shadow card_link">
                                 <img src="../build/img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top height-210 obj-fit position-relative" alt="equipment">
                                 <div class="card-body border-bottom bg-light pb-3 pt-2 px-2 overflow-hidden height-150">
@@ -83,8 +84,8 @@
                                     <p class="card-text text_color">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                                 <div class="card-footer d-flex justify-content-between flex-wrap bg-light text-left text_color">
-                                    <span class="my-2 date_out">26 травня 2021</span>
-                                    <a href="news-description.php" class="btn border-info text-primary read_more">Читати <span>&raquo;</span></a>
+                                    <span class="small text-monospace my-2">26 травня 2021</span>
+                                    <a href="news-description.php" class="btn border-info btn-info text_color btn-shaped">Читати <span>&raquo;</span></a>
                                 </div>
                             </div>
                         </a>
@@ -100,8 +101,8 @@
                                     <p class="card-text text_color">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                                 <div class="card-footer d-flex justify-content-between flex-wrap bg-light text-left text_color">
-                                    <span class="my-2 date_out">26 травня 2021</span>
-                                    <a href="news-description.php" class="btn border-info text-primary read_more">Читати <span>&raquo;</span></a>
+                                    <span class="small text-monospace my-2">26 травня 2021</span>
+                                    <a href="news-description.php" class="btn border-info btn-info text_color btn-shaped">Читати <span>&raquo;</span></a>
                                 </div>
                             </div>
                         </a>
@@ -117,8 +118,8 @@
                                     <p class="card-text text_color">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                                 <div class="card-footer d-flex justify-content-between flex-wrap bg-light text-left text_color">
-                                    <span class="my-2 date_out">26 травня 2021</span>
-                                    <a href="news-description.php" class="btn border-info text-primary read_more">Читати <span>&raquo;</span></a>
+                                    <span class="small text-monospace my-2">26 травня 2021</span>
+                                    <a href="news-description.php" class="btn border-info btn-info text_color btn-shaped">Читати <span>&raquo;</span></a>
                                 </div>
                             </div>
                         </a>
@@ -135,7 +136,7 @@
                                 </div>
                                 <div class="card-footer d-flex justify-content-between flex-wrap bg-light text-left text_color">
                                     <span class="my-2 date_out">26 травня 2021</span>
-                                    <a href="news-description.php" class="btn border-info text-primary read_more">Читати <span>&raquo;</span></a>
+                                    <a href="news-description.php" class="btn border-info btn-info text_color btn-shaped">Читати <span>&raquo;</span></a>
                                 </div>
                             </div>
                         </a>
@@ -148,8 +149,9 @@
         <section class="content bg-transparent d-flex flex-column fustify-content-between align-items-center mx-3 mx-sm-0 mt-3 mt-lg-4">
             <article class="container mx-0 bg-light shadow border px-0">
                 <div class="content__wrapper p-3 w-100">
-                    <h1 class="content__h font-weight-bold w-100 d-xl-none text-center mx-auto pb-3 border-bottom mb-3">Звернення голови правління</h1>
-                    <h1 class="content__h font-weight-bold w-100 d-none d-xl-block text-left mx-auto pb-4 border-bottom mb-4">Звернення голови правління</h2>
+                    <h1 class="content__h font-weight-bold w-100 d-xl-none text-center mx-auto pb-3 mb-0">Звернення голови правління</h1>
+                    <h1 class="content__h font-weight-bold w-100 d-none d-xl-block text-left mx-auto pb-3 mb-0">Звернення голови правління</h1>
+                    <hr class="bg-primary mb-3">
                         <div class="content__img float-md-left mr-md-3 mb-2 mb-xl-0">
                             <img src="build/img/head-leader.jpeg" alt="Голова правління" class="img-fluid w-100 min-height obj-fit border border-info">
                         </div>
@@ -173,9 +175,10 @@
                             </span>
                             <br>
                             <br>
-                            <span class="d-block mt-5 pt-3 text-right border-top">
-                                <strong class="font-weight-bold">Голова правління</strong><br class="d-lg-none"> АТ «Марганецький ГЗК» <br class="d-md-none"><strong class="font-weight-bold">Олексій Миколайович Алєксєєнко</strong>
-                            </span>
+                        </p>
+                        <hr class="bg-primary mb-3 mt-5">
+                        <p class="lead text-right mb-0">
+                            <strong class="font-weight-bold">Голова правління</strong><br class="d-lg-none"> АТ «Марганецький ГЗК» <br class="d-md-none"><strong class="font-weight-bold">Олексій Миколайович Алєксєєнко</strong>
                         </p>
                         <div class="clearfix invisible"></div>
                 </div>
@@ -185,8 +188,11 @@
         <!-- directors section -->
         <section class="content bg-transparent d-flex flex-column fustify-content-between align-items-center mx-3 mx-sm-0 mt-3 mt-lg-4">
             <article class="container mx-0 bg-light shadow border px-0 row">
-                <h1 class="content__h font-weight-bold w-100 d-xl-none text-center mx-3 pt-4 mb-0 border-bottom pt-3 pb-4">Наші керівники</h1>
-                <h1 class="content__h font-weight-bold w-100 d-none d-xl-block text-left mx-3 mb-3 border-bottom pl-0 pr-3 pb-4 pt-3">Наші керівники</h1>
+            <div class="px-3 pt-xl-3 w-100">
+                <h1 class="content__h font-weight-bold w-100 d-xl-none text-center ml-0 pt-4 pb-3">Наші керівники</h1>
+                <h1 class="content__h font-weight-bold w-100 d-none d-xl-block text-left ml-0 pl-0 pb-3 pr-3">Наші керівники</h1>
+                <hr class="bg-primary mb-0">
+            </div>
                 <div class="col-12 col-md-6 col-xl-4 p-3 director-img__block">
                     <div class="overflow-hidden w-100 position-relative">
                         <img src="build/img/Valeriygrigor.jpg" alt="керівник" class="img-fluid obj-fit w-100 p-0 border border-info">

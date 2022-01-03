@@ -119,7 +119,7 @@
         </nav>
     </header>
     <!-- mobile menu -->
-    <section class="menu-sm position-absolute flex-column fustify-content-center align-items-center bg_light_through pt-3 pt-md-5 blur">
+    <section class="menu-sm position-absolute flex-column fustify-content-center align-items-center bg_light_through pt-3 blur">
         <ul class="mx-auto accordion container px-0 text-center list-unstyled bg_dark_through" id="accordionMenu">
             <li class="card">
                 <div class="card-header">

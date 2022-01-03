@@ -20,7 +20,7 @@
         <!-- content -->
         <section class="content bg-transparent d-flex flex-column fustify-content-between align-items-center mx-3 mx-sm-0 mt-3 mt-lg-4">
             <article class="container mx-0 border px-0 mb-3">
-                <section class="d-flex flex-column justify-content-center align-items-center my-0 shadow">
+                <section class="d-flex flex-column justify-content-center align-items-center my-0 bg-light shadow">
                     <!-- text-positions -->
                     <div class="open-positions row mx-0 w-100 p-1 p-lg-3">
                         <h1 class="content__h text-center d-none d-lg-block mb-0">АТ «Марганецький гірничо-збагачувальний комбінат» - містоутворююче підприємство<br><strong class="text-uppercase py-4 d-inline-block">ЗAПРОШУЄ</strong> <br>на постійне працевлаштування</h1>
