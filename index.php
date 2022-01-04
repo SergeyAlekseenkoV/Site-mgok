@@ -31,7 +31,7 @@
                     <!-- second -->
                     <div class="carousel-caption p-2 p-md-3 p-xl-4 text-left text_color overflow-hidden position-absolute">
                         <h2 class="container ml-0 ml-sm-1 ml-md-2 ml-lg-auto w-75 shadow-dark">
-                            <a class="height-100p d-block text-monospace blur pr-1 pr-md-4" href="#">
+                            <a class="height-100p d-block text-monospace blur pr-1 pr-md-4" href="production.php">
                                 <span class="content__h d-block mb-2 text-normal">Продукція</span><br>
                                 Питання якості продукції і його підвищення завжди актуальні і знаходяться у центрі уваги.
                             </a>
@@ -74,9 +74,9 @@
                     </div>
                     <hr class="col-12 px-0 bg-primary mb-3">
                     <!-- news item -->
-                    <div class="col-12 col-md-6 col-lg-3 p-1 mb-3 mb-md-0">
+                    <div class="col-12 col-md-6 col-lg-3 px-1 mb-3 mb-md-0">
                         <a href="news-description.php" class="d-block text_color">
-                            <div class="card position-relative shadow card_link">
+                            <div class="card position-relative card_link">
                                 <img src="../build/img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top height-210 obj-fit position-relative" alt="equipment">
                                 <div class="card-body border-bottom bg-light pb-3 pt-2 px-2 overflow-hidden height-150">
                                     <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -91,9 +91,9 @@
                         </a>
                     </div>
                     <!-- news item -->
-                    <div class="col-12 col-md-6 col-lg-3 p-1 mb-3 mb-md-0">
+                    <div class="col-12 col-md-6 col-lg-3 px-1 mb-3 mb-md-0">
                         <a href="#" class="d-block text_color">
-                            <div class="card position-relative shadow card_link">
+                            <div class="card position-relative card_link">
                                 <img src="../build/img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top height-210 obj-fit position-relative" alt="equipment">
                                 <div class="card-body border-bottom bg-light pb-3 pt-2 px-2 overflow-hidden height-150">
                                     <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -108,9 +108,9 @@
                         </a>
                     </div>
                     <!-- news item -->
-                    <div class="col-12 col-md-6 col-lg-3 p-1 mb-3 mb-md-0">
+                    <div class="col-12 col-md-6 col-lg-3 px-1 mb-3 mb-md-0">
                         <a href="#" class="d-block text_color">
-                            <div class="card position-relative shadow card_link">
+                            <div class="card position-relative card_link">
                                 <img src="../build/img/pexels-08.png" class="card-img-top height-210 obj-fit position-relative" alt="equipment">
                                 <div class="card-body border-bottom bg-light pb-3 pt-2 px-2 overflow-hidden height-150">
                                     <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -125,9 +125,9 @@
                         </a>
                     </div>
                     <!-- news item -->
-                    <div class="col-12 col-md-6 col-lg-3 p-1 mb-3 mb-md-0">
+                    <div class="col-12 col-md-6 col-lg-3 px-1 mb-3 mb-md-0">
                         <a href="#" class="d-block text_color">
-                            <div class="card position-relative shadow card_link">
+                            <div class="card position-relative card_link">
                                 <img src="../build/img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top height-210 obj-fit position-relative" alt="equipment">
                                 <div class="card-body border-bottom bg-light pb-3 pt-2 px-2 overflow-hidden height-150">
                                     <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -176,6 +176,8 @@
                             <br>
                             <br>
                         </p>
+                        <br>
+                        <br>
                         <hr class="bg-primary mb-3 mt-5">
                         <p class="lead text-right mb-0">
                             <strong class="font-weight-bold">Голова правління</strong><br class="d-lg-none"> АТ «Марганецький ГЗК» <br class="d-md-none"><strong class="font-weight-bold">Олексій Миколайович Алєксєєнко</strong>

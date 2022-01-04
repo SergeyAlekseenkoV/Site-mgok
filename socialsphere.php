@@ -12,7 +12,7 @@
                 <img src="/build/img/stadion.jpg" alt="баннер" class="w-100 banner-img img-fluid obj-fit position-relative">
                 <figcaption class="banner-title-container position-absolute d-flex flex-column justify-content-center bg_dark_through w-100 min-height">
                     <h1 class="container pl-md-0 text-white display-4 mb-5">
-                        <span class="blur shadow-dark">Соц<span class="d-none d-sm-inline-block">іаль&shy;на</span><br class="d-md-none"> сфера</span>
+                        <span class="blur shadow-dark">Соціальна<br class="d-block d-lg-none"> сфера</span>
                     </h1>
                 </figcaption>
             </figure>

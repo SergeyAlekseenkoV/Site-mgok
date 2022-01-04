@@ -87,7 +87,7 @@
                                     fuga itaque vitae laudantium nihil eum quae. Sapiente deserunt velit rem et
                                     nulla necessitatibus!
                                 </p>
-                                <figure class="float-left img-figure mr-md-3 mb-0 border-info thumb">
+                                <figure class="float-left img-figure mr-md-3 mb-3 mb-md-0 border-info thumb">
                                     <img src="/build/img/pexels-tom-fisk-2101137 (4).jpg" alt="фото" class="img-fluid w-100 height-100p obj-fit">
                                     <figcaption class="text-center bg_dark_through">
                                         <p class="lead text-white mb-0 text-monospace">Наказ</p>
@@ -134,7 +134,7 @@
                                     fuga itaque vitae laudantium nihil eum quae. Sapiente deserunt velit rem et
                                     nulla necessitatibus!
                                 </p>
-                                <figure class="float-right img-figure ml-md-3 mb-0 border-info thumb">
+                                <figure class="float-right img-figure ml-md-3 mb-3 mb-md-0 border-info thumb">
                                     <img src="/build/img/pexels-tom-fisk-2101137 (4).jpg" alt="фото" class="img-fluid w-100 height-100p obj-fit">
                                     <figcaption class="text-center bg_dark_through">
                                         <p class="lead text-white mb-0 text-monospace">Наказ</p>

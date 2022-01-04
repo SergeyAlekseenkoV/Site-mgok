@@ -101,6 +101,11 @@
                     <p class="lead p-3 mb-0"><span class="text-primary mr-3"><i class="fas fa-phone-alt"></i></span>(056) 790-16-33</p>
                 </article>
             </div>
+            <!-- map to get -->
+            <article class="container mx-0 border px-0 mb-3 shadow">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1130.4476940357765!2d34.625374986679795!3d47.632489655360914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc973d58998ca3%3A0xe5f1ed2b333b43db!2z0JzQsNGA0LPQsNC90LXRhtC60LjQuSDQk9Ce0Jo!5e0!3m2!1sru!2sua!4v1641283925230!5m2!1sru!2sua" 
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </article>
         </section>
     </main>
     <!--footer-->

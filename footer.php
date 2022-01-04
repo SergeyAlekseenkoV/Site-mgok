@@ -9,7 +9,7 @@
                     <ul class="list-unstyled mt-3">
                         <li class="pl-0 py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Історія</a></li>
                         <li class="pl-0 py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Портал</a></li>
-                        <li class="pl-0 py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Продукція</a></li>
+                        <li class="pl-0 py-2 py-lg-1 small"><a class="text-info bg-transparent" href="production.php">Продукція</a></li>
                         <li class="pl-0 py-2 py-lg-1 small"><a class="text-info bg-transparent" href="vacancy.php">Вакансії</a></li>
                         <li class="pl-0 py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Контакти</a></li>
                     </ul>
@@ -17,9 +17,9 @@
                 <li class="pl-0 py-2 pr-0 pr-sm-2 pr-lg-5 text-right text-sm-left">
                     <span class="text-white border-bottom d-block">Підприємство</span>
                     <ul class="list-unstyled mt-3">
-                        <li class="py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">МГЗК сьогодні</a></li>
+                        <li class="py-2 py-lg-1 small"><a class="text-info bg-transparent" href="mgok-today.php">МГЗК сьогодні</a></li>
                         <li class="py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Охорона праці</a></li>
-                        <li class="py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Профспілка</a></li>
+                        <li class="py-2 py-lg-1 small"><a class="text-info bg-transparent" href="union.php">Профспілка</a></li>
                         <li class="py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Комбінат-місту</a></li>
                         <li class="py-2 py-lg-1 small"><a class="text-info bg-transparent" href="socialsphere.php">Соціальна сфера</a></li>
                     </ul>
@@ -37,8 +37,8 @@
                 <li class="pl-0 py-2 pr-0 pr-sm-2 pr-lg-5 text-right text-sm-left">
                     <span class="text-white border-bottom d-block">Партнерам</span>
                     <ul class="list-unstyled mt-3">
-                        <li class="py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Акціонери</a></li>
-                        <li class="py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Тендери</a></li>
+                        <li class="py-2 py-lg-1 small"><a class="text-info bg-transparent" href="holders.php">Акціонерам</a></li>
+                        <li class="py-2 py-lg-1 small"><a class="text-info bg-transparent" href="tenders.php">Тендери</a></li>
                         <li class="py-2 py-lg-1 small"><a class="text-info bg-transparent" href="#">Важлива інформація</a></li>
                     </ul>
                 </li>

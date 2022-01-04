@@ -890,6 +890,20 @@ p.first-letter-size {
     }
 }
 
+/* title for the img on the top (with the position-absolute class)*/
+.title-top {
+    position: absolute;
+    top: 0;
+    clip-path: polygon(0 0, 100% 0%, calc(100% - 15px) 100%, 0% 100%);
+}
+
+.title-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    clip-path: polygon(15px 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
 .shadow-light {
     text-shadow: $shadow, $shadow-dark;
 }
@@ -1119,6 +1133,12 @@ input[type="file"].form-control {
     inset:0;
     z-index: 3;
     clip-path: polygon(0 0, 75% 0, calc(50% + 1em) 100%, 0 100%);
+}
+
+@media screen and(max-width: 468px) {
+    .banner-title-container {
+        clip-path: polygon(0 0, 90% 0, calc(70% + 1em) 100%, 0 100%);
+    }
 }
 
 .gallery-wrapper-block {
@@ -1431,7 +1451,7 @@ button.fancybox-button[title="Next"] {
 
         &:hover {
             opacity: 1;
-            box-shadow: none!important;
+            box-shadow: 0px 3px 6px 0px $primary-color-through !important;
         }
 
         &::after {

@@ -54,7 +54,7 @@
                             <a class="text-uppercase nav-link text-white py-3 px-2 px-lg-4 shadow-dark" href="#" role="button" aria-haspopup="true" aria-expanded="false" tabindex="16">Партнерам</a>
                         </li>
                         <li class="d-flex justify-content-center nav-item position-relative">
-                            <a class="text-uppercase nav-link text-white py-3 px-2 px-lg-4 shadow-dark" href="#" role="button" aria-haspopup="true" aria-expanded="false" tabindex="20">Продукція</a>
+                            <a class="text-uppercase nav-link text-white py-3 px-2 px-lg-4 shadow-dark" href="production.php" role="button" aria-haspopup="true" aria-expanded="false" tabindex="20">Продукція</a>
                         </li>
                         <li class="d-flex justify-content-center nav-item position-relative">
                             <a class="text-uppercase nav-link text-white py-3 px-2 px-lg-4 shadow-dark" href="#" role="button" aria-haspopup="true" aria-expanded="false" tabindex="21">Портал</a>
@@ -66,13 +66,13 @@
             <div class="w-100 d-none py-0 justify-content-center align-items-center dropdown-block px-0 position-absolute bg_light_through shadow blur">
                 <ul class="container d-none justify-content-center align-items-center list-unstyled my-1 name-list" data-name="enterprize">
                     <li>
-                        <a href="#" class="px-5 py-2 py-xl-3" tabindex="3">МГЗК сьогодні</a>
+                        <a href="mgok-today.php" class="px-5 py-2 py-xl-3" tabindex="3">МГЗК сьогодні</a>
                     </li>
                     <li>
                         <a href="#" class="px-5 py-2 py-xl-3" tabindex="4">Охорона праці</a>
                     </li>
                     <li>
-                        <a href="#" class="px-5 py-2 py-xl-3" tabindex="5">Профспілка</a>
+                        <a href="union.php" class="px-5 py-2 py-xl-3" tabindex="5">Профспілка</a>
                     </li>
                     <li>
                         <a href="#" class="px-5 py-2 py-xl-3" tabindex="6">Комбінат-місту</a>
@@ -106,10 +106,10 @@
                 </ul>
                 <ul class="container d-none justify-content-center align-items-center list-unstyled my-1 name-list" data-name="partners">
                     <li>
-                        <a href="#" class="px-5 py-2 py-xl-3" tabindex="17">Акціонери</a>
+                        <a href="holders.php" class="px-5 py-2 py-xl-3" tabindex="17">Акціонерам</a>
                     </li>
                     <li>
-                        <a href="#" class="px-5 py-2 py-xl-3" tabindex="18">Тендери</a>
+                        <a href="tenders.php" class="px-5 py-2 py-xl-3" tabindex="18">Тендери</a>
                     </li>
                     <li>
                         <a href="#" class="px-5 py-2 py-xl-3" tabindex="19">Важлива інформація</a>
@@ -141,13 +141,13 @@
                 <div id="collapseOne" class="collapse w-75 mx-auto" aria-labelledby="headingOne" data-parent="#accordionMenu">
                     <ul class="card-body list-unstyled px-0">
                         <li>
-                            <a href="#" class="p-3 btn btn-block my-1">МГЗК сьогодні</a>
+                            <a href="mgok-today" class="p-3 btn btn-block my-1">МГЗК сьогодні</a>
                         </li>
                         <li>
                             <a href="#" class="p-3 btn btn-block my-1">Охорона праці</a>
                         </li>
                         <li>
-                            <a href="#" class="p-3 btn btn-block my-1">Профспілка</a>
+                            <a href="union.php" class="p-3 btn btn-block my-1">Профспілка</a>
                         </li>
                         <li>
                             <a href="#" class="p-3 btn btn-block my-1">Комбінат-місту</a>
@@ -209,10 +209,10 @@
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionMenu">
                     <ul class="card-body list-unstyled px-0">
                         <li>
-                            <a href="#" class="p-3 btn btn-block my-1">Акціонерам</a>
+                            <a href="holders.php" class="p-3 btn btn-block my-1">Акціонерам</a>
                         </li>
                         <li>
-                            <a href="#" class="p-3 btn btn-block my-1">Тендери</a>
+                            <a href="tenders.php" class="p-3 btn btn-block my-1">Тендери</a>
                         </li>
                         <li>
                             <a href="#" class="p-3 btn btn-block my-1">Важлива інформація</a>
@@ -223,7 +223,7 @@
             <li class="card">
                 <div class="card-header">
                     <h2 class="mb-0">
-                        <a href="#" class="btn btn-link btn-block text-left text-uppercase" role="button">
+                        <a href="production.php" class="btn btn-link btn-block text-left text-uppercase" role="button">
                             Продукція
                         </a>
                     </h2>
