@@ -102,6 +102,12 @@ body {
     }
 }
 
+@media screen and (min-width: 1800px) {
+    .container {
+        min-width: 1680px;
+    }
+}
+
 .social-top {
     position: relative;
     z-index: -1;

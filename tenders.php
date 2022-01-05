@@ -129,11 +129,11 @@
         <section class="content bg-transparent d-flex flex-column fustify-content-between align-items-center mx-3 mx-sm-0 mt-3 mt-lg-4">
             <article class="container mx-0 bg-light shadow border px-0 py-3">
                 <div class="content__wrapper px-3 w-100">
-                    <h4>Завантажити документ</h4>
-                    <ul>
-                        <li class="my-3"><a href="#" class="text-primary">Tиповой договор поставки</a></li>
-                        <li class="my-3"><a href="#" class="text-primary">Tиповой договор предоставления услуг и выполнения ремонтных работ</a></li>
-                        <li class="my-3"><a href="#" class="text-primary">Tиповой договор строительного подряда</a></li>
+                    <h4 class="text-lg-center mb-lg-4">Завантажити документ</h4>
+                    <ul class="row mx-0 w-100">
+                        <li class="col-12 my-2 my-lg-0 col-lg-6"><a href="#" class="text-primary">Tиповой договор поставки</a></li>
+                        <li class="col-12 my-2 my-lg-0 col-lg-6"><a href="#" class="text-primary">Tиповой договор предоставления услуг и выполнения ремонтных работ</a></li>
+                        <li class="col-12 my-2 my-lg-0 col-lg-6"><a href="#" class="text-primary">Tиповой договор строительного подряда</a></li>
                     </ul>
                 </div>
             </article>
